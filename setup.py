@@ -5,7 +5,7 @@ version = '1.0'
 
 setup(name='milktea.plonetwitterportlet',
       version=version,
-      description="",
+      description="A Plone product that displays dynamic Twitter account in a portlet",
       long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.rst")).read(),
       # Get more strings from
