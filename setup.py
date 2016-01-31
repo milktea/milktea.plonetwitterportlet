@@ -15,10 +15,12 @@ setup(name='milktea.plonetwitterportlet',
         "Programming Language :: Python",
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
-      keywords='',
       author='Milktea',
       author_email='sescatalan@gmail.com',
-      url='http://github.com/milktea/',
+      url = 'https://github.com/milktea/milktea.plonetwitterportlet', # URL to the github repo
+      download_url = 'https://github.com/milktea/milktea.plonetwitterportlet/tarball/1.0', # Version tag
+      keywords = ['plone', 'portlet', 'twitter', 'product'], # arbitrary keywords
+
       license='gpl',
       packages=find_packages(),
       namespace_packages=['milktea'],

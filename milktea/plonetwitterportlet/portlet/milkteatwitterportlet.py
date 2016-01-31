@@ -40,7 +40,7 @@ class Assignment(base.Assignment):
        
     @property
     def title(self):
-        return "Add Milktea Twitter Portlet"
+        return "Milktea Twitter Portlet"
     
 
 class Renderer(base.Renderer):
