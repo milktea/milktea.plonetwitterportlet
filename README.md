@@ -2,8 +2,9 @@
 Plone Twitter Portlet
 
 Dynamic Plone Twitter Portlet 
-No Widget ID needed
 
+No Widget ID needed
+-------------------------------------------
 Has two options:
 
 1.Config through Site Options for the entire site
@@ -26,6 +27,7 @@ Choose Milktea Plone Twitter Portlet
 
 Input twitter username  
 
+-------------------------------------------
 
 For twitter usernames:
 
