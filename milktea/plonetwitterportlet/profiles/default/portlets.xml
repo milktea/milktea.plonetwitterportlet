@@ -2,5 +2,10 @@
 <portlets>
 
     <!-- -*- extra stuff goes here -*- -->
+    <portlet
+            addview="milkteatwitterportlet.portlet"
+            title="Milkea Plone Twitter Portlet"
+            description=""
+    />
 
 </portlets>

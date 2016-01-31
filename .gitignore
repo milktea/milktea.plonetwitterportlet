@@ -8,7 +8,7 @@ bin
 parts
 develop-eggs
 
-
+.eggs/
 .installed.cfg
 *.komodoproject
 .mr.developer.cfg

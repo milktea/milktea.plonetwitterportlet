@@ -20,6 +20,13 @@
         name="milktea.plonetwitterportlet"
         directory="static"/>
 
+    <browser:page
+        name="twitter-controlpanel"
+        for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+        permission="cmf.ManagePortal"
+        class=".controlpanel.TwitterControlPanelView"
+    />
+
     <!-- -*- extra stuff goes here -*- -->
 
 </configure>

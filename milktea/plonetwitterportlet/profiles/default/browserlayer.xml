@@ -2,4 +2,11 @@
 <layers>
     <layer name="milktea.plonetwitterportlet"
         interface="milktea.plonetwitterportlet.interfaces.IProductSpecific" />
+
+       <layer name="milktea.plonetwitterportlet"
+        interface="milktea.plonetwitterportlet.interfaces.ITwitterLayer" />
+
 </layers>
+
+
+
