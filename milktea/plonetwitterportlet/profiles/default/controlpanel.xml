@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<object
+    name="portal_controlpanel"
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+
+    <configlet
+        title="Milktea Plone Twitter Portlet Settings"
+        action_id="milktea.plonetwitterportlet.settings"
+        appId="milktea.plonetwitterportlet"
+        category="Products"
+        condition_expr=""
+        url_expr="string:${portal_url}/@@twitter-controlpanel"
+        visible="True"
+        i18n:attributes="title">
+            <permission>Manage portal</permission>
+    </configlet>
+
+</object>

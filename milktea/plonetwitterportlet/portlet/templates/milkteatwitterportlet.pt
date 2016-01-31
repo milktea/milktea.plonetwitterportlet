@@ -1,0 +1,11 @@
+<div id="author-twitter-feed">
+    <div tal:define="twittername python: view.contents()" tal:condition="twittername">
+     <a
+     tal:content= "python: 'Tweets by ' + twittername "
+     class="twitter-timeline" 
+     tal:attributes="href python: 'https://twitter.com/'+ twittername;
+                     data-widget-id python: '588968200643092480';
+                     data-screen-name twittername;">Tweets by</a>
+     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+     </div>
+</div>

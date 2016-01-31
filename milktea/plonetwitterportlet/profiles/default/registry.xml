@@ -1,0 +1,3 @@
+<registry>    
+    <records interface="milktea.plonetwitterportlet.controlpanel.ITwitterSettings" />
+</registry>
